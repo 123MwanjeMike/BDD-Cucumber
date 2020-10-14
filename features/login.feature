@@ -2,7 +2,7 @@ Feature: Login?
   When someone wants to access the System services
 
   Scenario: Username is Joshua
-    Given I log in as "Joshua"
+    Given I log in as "Josh"
     When I try to login
     Then I should be told "logged in"
 
